@@ -13,6 +13,10 @@ public class MyWorld extends World
         addObject(world,1280, 440);
         hunter hunter = new hunter();
         addObject(hunter, 200, 400);
+        world u = new world();
+        addObject(u,320,440);
+        
+        
     }
     public void act()
     {
